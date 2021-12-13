@@ -4,3 +4,10 @@ spring:
     url: jdbc:h2:mem:test
     username: sa
     password: '{cipher}f97b874c21b7725a3baab9c724cdf19dbeb66c2b3bd5220b9d4ebd79f7997b7b'
+
+token:
+  expiration_time: 864000000
+  secret: my_token_dev_changed
+
+gateway:
+  ip: 127.0.0.1
